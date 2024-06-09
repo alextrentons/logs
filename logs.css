@@ -1,0 +1,33 @@
+.logs-header-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logs-header-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logs-date-pickers {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.logs-tabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--disable-color);
+  margin-bottom: 20px;
+}
+
+.logs-tab-container {
+  padding: 10px 30px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--primary-color);
+}
